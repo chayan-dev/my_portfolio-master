@@ -1570,6 +1570,11 @@ header .logo a {
 	margin-right: 4rem;
 }
 
+.email-class
+{
+	width: fit-content;
+}
+
 /**
  * responsive:
  * about
