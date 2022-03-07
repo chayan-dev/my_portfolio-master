@@ -38,6 +38,12 @@
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
+.medium-icon{
+	width: 33px;
+	height: 33px;
+	position: relative;
+	top: 6%;
+}
 
 
 /** 
@@ -1421,12 +1427,13 @@ header .logo a {
 	display: inline-block;
 	margin: 0 20px;
 	padding: 0;
+	transition: 0.3s ease-in-out;
 }
 .intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	transform: scale(1.3);
 }
 
 /**
