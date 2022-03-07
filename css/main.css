@@ -939,6 +939,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * skillbars - (_skillbars.scss)
  * -------------------------------------------------------------------
  */
+
+ .skills-div
+ {
+	 text-align: center;
+
+ }
+ .skills-div h3
+ {
+	color: #FF0077;
+ }
 /* .skill-bars {
 	list-style: none;
 	margin: 6rem 0 3rem;
@@ -1541,9 +1551,9 @@ header .logo a {
 	padding: 0 0 1.5rem 0;
 	margin-bottom: .6rem;
 }
-.about-content .info-list li strong {
+.about-content strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: grey;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1573,6 +1583,8 @@ header .logo a {
 .email-class
 {
 	width: fit-content;
+	text-decoration: none;
+	color: grey;
 }
 
 /**
